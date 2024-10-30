@@ -1,0 +1,25 @@
+{
+  "name": "movietickets",
+  "version": "1.0.0",
+  "description": "Booking System of Movie",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Movie",
+    "Booking",
+    "Tickets"
+  ],
+  "author": "Rewati Raman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.1",
+    "movietickets": "file:",
+    "path": "^0.12.7"
+  }
+}

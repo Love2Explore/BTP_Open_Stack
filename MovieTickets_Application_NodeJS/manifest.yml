@@ -1,0 +1,8 @@
+---
+applications:
+- name: ticketbooking
+  random-route: true
+  path: app
+  memory: 128M
+  buildpacks:
+  - nodejs_buildpack
