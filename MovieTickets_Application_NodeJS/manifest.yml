@@ -1,6 +1,6 @@
 ---
 applications:
-- name: ticketbooking
+- name: movietickets
   random-route: true
   path: app
   memory: 128M
