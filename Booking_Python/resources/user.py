@@ -19,6 +19,6 @@ class UserResource(Resource):
             return {"message":"No record Found"} , 404    
     def post(self):
         data = self.parser.parse_args()
-        user = UserService.save_to_db(self,data['username'],data['password'])
+        user = UserService.save_to_db(data['username'],data['password'])
         return user
 
