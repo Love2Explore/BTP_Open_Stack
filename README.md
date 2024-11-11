@@ -1,6 +1,6 @@
 # PYTHON API Documentation
 ## User API
-    * Create USER <br />
+    ### Create USER <br />
     ###
 	    --POST https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/user 
 		   BODY 
@@ -9,7 +9,7 @@
 		                    "password":"password" 
 		                } 
       
-    * Read User <br />
+    ### Read User <br />
     ###
   		--GET https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/user?username=name 
 		--GET https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/user?id=6708bf500b25473e41e909f0 
