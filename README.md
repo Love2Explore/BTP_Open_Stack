@@ -14,22 +14,22 @@ Read User <br />
 	--GET https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/user?username=name 
 	--GET https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/user?id=6708bf500b25473e41e909f0 
 ## Booking API
-    * Booking Tickets
-    ###
+Booking Tickets
+###
         --POST https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/booking 
 		   BODY
 		                {
                             "username":"user",
                             "movie_id":"6708bf500b25473e41e909f0"
                         }
-    * Read Bookings
-    ###
+Read Bookings
+###
         --GET https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/booking?id=6708bf500b25473e41e909f0
     
 # NODEJS API Documentation
 ## Tickets API
-    * Create Movie Tickets
-    ###
+Create Movie Tickets
+###
         --POST https://ticketbooking-wise-lemur-dk.cfapps.us10-001.hana.ondemand.com/asmbtp/post-ticket
             BODY
                     {
@@ -38,9 +38,9 @@ Read User <br />
                         "description":"Ticket for One Movie" , 
                         "movie":"Bat Man"
                     }
-    * Get One Movie Tickets
-    ###
+Get One Movie Tickets
+###
         --GET https://movietickets-reflective-bushbuck-yu.cfapps.us10-001.hana.ondemand.com/asmbtp/get-ticket?ticket=6708bf500b25473e41e909f0
-    * Get ALL Movie Tickets
-    ###
+Get ALL Movie Tickets
+###
         --GET https://movietickets-reflective-bushbuck-yu.cfapps.us10-001.hana.ondemand.com/asmbtp/get-all-ticket
