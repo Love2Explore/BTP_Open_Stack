@@ -1,5 +1,5 @@
-### PYTHON API Documentation
-* User API
+# PYTHON API Documentation
+## * User API
     * Create USER <br />
     ###
 	    --POST https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/user 
@@ -13,7 +13,7 @@
     ###
   		--GET https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/user?username=name 
 		--GET https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/user?id=6708bf500b25473e41e909f0 
-* Booking API
+## * Booking API
     * Booking Tickets
     ###
         --POST https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/booking 
@@ -26,8 +26,8 @@
     ###
         --GET https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/booking?id=6708bf500b25473e41e909f0
     
-### NODEJS API Documentation
-* Tickets API
+# NODEJS API Documentation
+## * Tickets API
     * Create Movie Tickets
     ###
         --POST https://ticketbooking-wise-lemur-dk.cfapps.us10-001.hana.ondemand.com/asmbtp/post-ticket
