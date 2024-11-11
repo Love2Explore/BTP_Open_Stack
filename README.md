@@ -1,7 +1,7 @@
 # PYTHON API Documentation
 ## User API
-### Create USER <br />
-###
+Create USER <br />
+
 	    --POST https://ticketbooking-cheerful-jackal-xl.cfapps.us10-001.hana.ondemand.com/asmbtp/user 
 		   BODY 
 		                { 
